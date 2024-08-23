@@ -1,5 +1,5 @@
 * Our model is implemented with PyTorch 1.13.0 and Python 3.9. 
-* ./LOSO-results saves the Leave-One-Subject-Out (LOSO) evaluation results of each subject on CASME II (3cls, 5cls),  SAMM (3cls, 5cls), CAS(ME)^3 (7cls), and MEVIEW (3cls) datasets.
+
 * To try HLoRA-MER, please download Dinov2 from https://github.com/facebookresearch/dinov2 and follow the next steps.  
 
     1.Install requried packages:
