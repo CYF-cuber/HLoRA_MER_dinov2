@@ -9,9 +9,9 @@ To try HLoRA-MER, please download [Dinov2](https://github.com/facebookresearch/d
     $ pip install -r requirements.txt
 ```
 2.Replace the files in the original Dinov2 project with the files provided in folder dinov2_lora:
-    (1) vision_transformer.py -> dinov2-main/dinov2/models/vision_transformer.py
-    (2) block.py -> dinov2-main/dinov2/layers/block.py
-    (3) attention.py -> dinov2-main/dinov2/layers/attention.py
+- (1) vision_transformer.py -> dinov2-main/dinov2/models/vision_transformer.py
+- (2) block.py -> dinov2-main/dinov2/layers/block.py
+- (3) attention.py -> dinov2-main/dinov2/layers/attention.py
 
 3.Make training and testing datasets:
 ./data_lists shows the micro-expressions samples we used in our experiments. CASME2 and SAMM in terms of 3-cls and 5-cls are included. The data.py makes datasets for each subject:
