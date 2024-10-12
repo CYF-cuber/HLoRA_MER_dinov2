@@ -16,7 +16,6 @@ $ pip install -r requirements.txt
 3.Make training and testing datasets:
 The datasets like [CASME II](http://casme.psych.ac.cn/casme/c2) and [SAMM](https://helward.mmu.ac.uk/STAFF/M.Yap/dataset.php), and should follow such folder structure.
 ```
-│data/
 ├──CASME2_data_5/
 │  ├── disgust
 │  │   ├── 01_EP19_05f
